@@ -1,7 +1,10 @@
 from flask import Flask,send_from_directory
 from Menu.WBC.app import WBC
+from Menu.Projects.information.projects import Projects
 app = Flask(__name__)
+
 app.register_blueprint(WBC)
+app.register_blueprint(Projects)
 
 @app.route("/")
 def index():
