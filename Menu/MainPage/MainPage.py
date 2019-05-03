@@ -1,7 +1,7 @@
 from flask import Blueprint
 import requests
 import json
-
+import logging
 
 MainPage = Blueprint('MainPage', __name__, template_folder='templates')
 
@@ -9,9 +9,8 @@ MainPage = Blueprint('MainPage', __name__, template_folder='templates')
 def get_services_users_count():
     try:
         data = requests.get("http://89.32.251.131:3022/includeamin/users/count").content
-        data = json.loads(data)["State"]
-        if data == True:
-            return data["Description"]
-        return 'FAILD TO CONNECTION '
+        data = json.loads(data)
+        return str(data["Description"]["Count"])
     except Exception as ex:
-        return ex.args
+        logging.warning(ex.args)
+        return 'ERROR'
