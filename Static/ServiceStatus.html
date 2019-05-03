@@ -16,6 +16,43 @@
 
 <script>
 
+
+
+    var temp_name = '';
+
+    var ids = ["animup_micro","animup_auth","animup_user","animup_accounting","animup_registery","animup_animation","animup_upload",
+
+    "words_micro","word_auth","word_user","words_accounting","word_game",'words_registery',"words_resource","chichi_micro"
+
+    ];
+    for(var item in ids){
+        const temp_name = ids[item];
+        fetch("/Services/Status/"+ids[item]).then((body)=>{return body.text()})
+            .then((text)=>
+                {
+                  var element = document.getElementById(temp_name);
+
+
+                    if(text==='true'){
+                        element.innerText = "UP";
+                        element.style.color = 'green'
+                    }
+                    else {
+                        element.innerText = "DOWN";
+                        element.style.color = 'red'
+                    }
+
+                }
+            );
+
+
+
+
+
+    }
+
+
+
 </script>
 <table style="width: 100%">
     <tr>
@@ -34,32 +71,37 @@
     <tr>
         <td>AnimUp</td>
         <td>Microservice Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="animup_micro">UP</span></td>
     </tr>
      <tr>
         <td>AnimUp</td>
         <td>Authentication Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="animup_auth">UP</span></td>
     </tr>
      <tr>
         <td>AnimUp</td>
         <td>Resource Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="animup_upload">UP</span></td>
     </tr>
      <tr>
         <td>AnimUp</td>
         <td>Animation Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="animup_animation">UP</span></td>
     </tr>
      <tr>
         <td>AnimUp</td>
         <td>Accounting Management</td>
-        <td><span style="color: red">Down</span></td>
+        <td><span style="color: red" id="animup_accounting">Down</span></td>
     </tr>
      <tr>
         <td>AnimUp</td>
         <td>Registery Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="animup_registery" >UP</span></td>
+    </tr>
+    <tr>
+        <td>AnimUp</td>
+        <td>User Management</td>
+        <td><span style="color: green" id="animup_user" >UP</span></td>
     </tr>
 
 </table>
@@ -75,28 +117,38 @@
     <tr>
         <td>Words Game</td>
         <td>Microservice Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="words_micro">UP</span></td>
     </tr>
      <tr>
         <td>Words Game</td>
         <td>Authentication Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="word_auth">UP</span></td>
     </tr>
      <tr>
         <td>Words Game</td>
         <td>Resource Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="words_resource">UP</span></td>
     </tr>
 
      <tr>
         <td>Words Game</td>
         <td>Accounting Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green"id="words_accounting">UP</span></td>
     </tr>
      <tr>
         <td>Words Game</td>
         <td>Registery Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="words_registery">UP</span></td>
+    </tr>
+     <tr>
+        <td>Words Game</td>
+        <td>Game Management</td>
+        <td><span style="color: green" id="word_game">UP</span></td>
+    </tr>
+    <tr>
+        <td>Words Game</td>
+        <td>User Management</td>
+        <td><span style="color: green" id="word_user">UP</span></td>
     </tr>
 
 </table>
@@ -111,12 +163,12 @@
     <tr>
         <td>Chichi</td>
         <td>Microservice Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: green" id="chichi_micro">UP</span></td>
     </tr>
      <tr>
         <td>Chichi</td>
         <td>Authentication Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: orange">Under Development</span></td>
     </tr>
      <tr>
         <td>Chichi</td>
@@ -167,7 +219,7 @@
      <tr>
         <td>Mad Minimal</td>
         <td>Authentication Management</td>
-        <td><span style="color: green">UP</span></td>
+        <td><span style="color: orange">Under Development</span></td>
     </tr>
      <tr>
         <td>Mad Minimal</td>

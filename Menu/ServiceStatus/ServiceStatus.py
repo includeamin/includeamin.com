@@ -1,5 +1,7 @@
 from flask import Blueprint
 import requests
+from flask import send_from_directory
+import logging
 
 ServiceStatus = Blueprint('ServiceStatus', __name__, template_folder='static')
 
@@ -21,18 +23,20 @@ def get_service_status(name):
                         'words_accounting': 'http://89.32.251.131:3025/',
                         'word_game': 'http://89.32.251.131:3024/',
                         'words_registery': 'http://89.32.251.131:5000/',
-                        'words_resource': 'http://89.32.251.131:30023/',
+                        'words_resource': 'http://89.32.251.131:3023/',
 
                         'chichi_micro': 'https://chichiapp.ir:3000/'
 
                         }
 
         requests.get(service_list[name], timeout=0.8, verify=False)
-        return True
-
-
-
-
-
+        logging.warning('ture')
+        return "true"
     except:
-        return False
+        logging.warning('false')
+        return "false"
+
+
+@ServiceStatus.route('/Service/status')
+def get_service_status_page():
+    return send_from_directory("./static",filename='ServiceStatus.html')
