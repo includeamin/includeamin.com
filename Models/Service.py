@@ -1,5 +1,5 @@
 class Service:
-    def __init__(self,application,url,servicename):
+    def __init__(self, application, url, servername):
         self.Application = application
         self.URL = url
-        self.ServiceName = servicename
+        self.ServiceName = servername
