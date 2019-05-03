@@ -2,7 +2,10 @@ from flask import Flask,send_from_directory
 from Menu.WBC.app import WBC
 from Menu.Projects.information.projects import Projects
 from Menu.MainPage.MainPage import MainPage
+from flask_cors import CORS
 app = Flask(__name__)
+cors = CORS(app)
+
 
 app.register_blueprint(WBC)
 app.register_blueprint(Projects)

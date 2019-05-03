@@ -13,6 +13,7 @@
     <title>Includeamin</title>
 </head>
 <body>
+
 <table style="width: 100%">
     <tr>
 
@@ -114,9 +115,23 @@ Ich intresse mich auch für IOT, Deep-Learning , machine Learning und Image Proc
          <li>User Management : <a href="/projects/microservicemanagement">INFO</a> Complete : <span style="color: green;" >50%</span></li>
          <li>Authentication Management : <a href="/projects/microservicemanagement">INFO</a> Complete : <span style="color: green;" >80%</span></li>
          <li>Bridge Service : <a href="/projects/microservicemanagement">INFO</a> Complete : <span style="color: green;" >15%</span></li>
+        <li>
+            <span id="usercount"></span>
+
+
+        </li>
     </ul>
 </li>
     </li>
 </ul>
+
+
+
+ <script> fetch("/mainpage/info/services/usercount").then((body)=>{
+              return body.text()
+ }).then((resp)=>{
+          //document.getElementById('usercount').innerText = resp
+
+ })</script>
 </body>
 </html>
