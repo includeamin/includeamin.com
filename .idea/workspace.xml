@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934e141b-6dc9-4f96-b01b-16fb6fc448a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Menu/ServiceStatus/ServiceStatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/ServiceStatus/ServiceStatus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/ServiceStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Static/ServiceStatus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Static/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Static/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+                <state relative-caret-position="583">
+                  <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#li#2;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -127,11 +125,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Menu/ServiceStatus/ServiceStatus.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="702">
-                  <caret line="39" column="37" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="36">
+                  <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -294,12 +289,12 @@
       <updated>1556831931200</updated>
       <workItem from="1556831932361" duration="374000" />
       <workItem from="1556866985053" duration="11973000" />
-      <workItem from="1556899651588" duration="8224000" />
+      <workItem from="1556899651588" duration="9332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20571000" />
+    <option name="totallyTimeSpent" value="21679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -407,8 +402,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+        <state relative-caret-position="583">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#2;n#ul#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
