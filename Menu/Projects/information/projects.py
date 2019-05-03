@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-Projects = Blueprint('WBC', __name__, template_folder='templates')
+Projects = Blueprint('Projects', __name__, template_folder='templates')
 
 
 @Projects.route('/projects/<name>')
