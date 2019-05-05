@@ -2,8 +2,11 @@ from flask import Blueprint
 import requests
 from flask import send_from_directory
 import logging
+import sys,os
 
-ServiceStatus = Blueprint('ServiceStatus', __name__, template_folder='static')
+cwd = os.getcwd()
+
+ServiceStatus = Blueprint('ServiceStatus', __name__, template_folder='templates')
 
 
 @ServiceStatus.route('/Services/Status/<name>')
@@ -37,6 +40,10 @@ def get_service_status(name):
         return "false"
 
 
-@ServiceStatus.route('/Service/status')
+@ServiceStatus.route('/Service/status/availability')
 def get_service_status_page():
-    return send_from_directory("./static",filename='ServiceStatus.html')
+    try:
+        cwd = os.getcwd()
+        return send_from_directory("./Static/",filename='ServiceStatus.html')
+    except Exception as ex:
+         return "Error"
