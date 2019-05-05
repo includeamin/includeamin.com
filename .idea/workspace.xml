@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934e141b-6dc9-4f96-b01b-16fb6fc448a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/Projects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/project_init.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Models/Projects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Models/project_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -58,6 +67,7 @@
         <option value="$PROJECT_DIR$/Static/ServiceStatus.html" />
         <option value="$PROJECT_DIR$/Static/index.html" />
         <option value="$PROJECT_DIR$/Models/Projects.py" />
+        <option value="$PROJECT_DIR$/Models/project_init.py" />
       </list>
     </option>
   </component>
@@ -207,12 +217,12 @@
       <workItem from="1556866985053" duration="11973000" />
       <workItem from="1556899651588" duration="9332000" />
       <workItem from="1557039825685" duration="2842000" />
-      <workItem from="1557073608614" duration="592000" />
+      <workItem from="1557073608614" duration="1919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25113000" />
+    <option name="totallyTimeSpent" value="26440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -317,7 +327,14 @@
     <entry file="file://$PROJECT_DIR$/Models/Projects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/project_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
