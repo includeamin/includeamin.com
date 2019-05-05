@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934e141b-6dc9-4f96-b01b-16fb6fc448a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Menu/ServiceStatus/ServiceStatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/ServiceStatus/ServiceStatus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/ServiceStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Static/ServiceStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="934e141b-6dc9-4f96-b01b-16fb6fc448a7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,12 +322,12 @@
       <workItem from="1556831932361" duration="374000" />
       <workItem from="1556866985053" duration="11973000" />
       <workItem from="1556899651588" duration="9332000" />
-      <workItem from="1557039825685" duration="2639000" />
+      <workItem from="1557039825685" duration="2842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24318000" />
+    <option name="totallyTimeSpent" value="24521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
