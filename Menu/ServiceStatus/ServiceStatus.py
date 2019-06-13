@@ -28,11 +28,16 @@ def get_service_status(name):
                         'words_registery': 'http://89.32.251.131:5000/',
                         'words_resource': 'http://89.32.251.131:3023/',
 
-                        'chichi_micro': 'https://chichiapp.ir:3000/'
+                        'chichi_micro': 'https://chichiapp.ir:3000/',
+                        "mads_micro":'https://chichiapp.ir:3030/',
+                        'mads_auth':"https://chichiapp.ir:3031/",
+                        'mads_user':"http://chichiapp.ir:3032",
+                        'mads_res':"http://chichiapp.ir:3033",
+                        'mads_game':"http://chichiapp.ir:3034"
 
                         }
 
-        requests.get(service_list[name], timeout=0.8, verify=False)
+        requests.get(service_list[name], timeout=1, verify=False)
         logging.warning('ture')
         return "true"
     except:
