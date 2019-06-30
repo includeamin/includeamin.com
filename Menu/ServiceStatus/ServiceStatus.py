@@ -28,12 +28,12 @@ def get_service_status(name):
                         'words_registery': 'http://89.32.251.131:5000/',
                         'words_resource': 'http://89.32.251.131:3023/',
 
-                        'chichi_micro': 'https://chichiapp.ir:3000/',
-                        "mads_micro":'https://chichiapp.ir:3030/',
-                        'mads_auth':"https://chichiapp.ir:3031/",
-                        'mads_user':"http://chichiapp.ir:3032",
-                        'mads_res':"http://chichiapp.ir:3033",
-                        'mads_game':"http://chichiapp.ir:3034"
+                        'chichi_micro': 'http://chichiapp.ir:3000/',
+                        "mads_micro":'https://micro.themaddays.com/',
+                        'mads_auth':"https://auth.themaddays.com/",
+                        'mads_user':"http://user.themaddays.com/",
+                        'mads_res':"http://resource.themaddays.com/",
+                        'mads_game':"http://game.themaddays.com/"
 
                         }
 

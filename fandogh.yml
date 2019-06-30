@@ -1,1 +1,13 @@
-#fandogh
+kind: ExternalService
+name: includeamin
+spec:
+  image: includeamin:v1.6
+  replicas: 1
+  port: 3000
+  path: /
+  allow_http: false
+  domains:
+     - name: includeamin.com
+
+  resources:
+    memory: 500Mi
