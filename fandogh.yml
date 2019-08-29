@@ -1,7 +1,7 @@
 kind: ExternalService
 name: includeamin
 spec:
-  image: includeamin:v1.6
+  image: includeamin:v1.7
   replicas: 1
   port: 3000
   path: /
