@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: includeamincom
+spec:
+  selector:
+    app: includeamincom
+  ports:
+    - port: 3000
+      nodePort: 32808
+  type: NodePort

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: includeamincom
+  labels:
+    app: includeamincom
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: includeamincom
+      labels:
+        app: includeamincom
+    spec:
+      containers:
+        - name: includeamincom
+          image: includeamin/includeamin.com:v1
+          imagePullPolicy: IfNotPresent
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: includeamincom
