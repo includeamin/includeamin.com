@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>termynal.js example</title>
+        <meta charset="utf-8">
+        <!-- include the termynal stylesheet -->
+        <link rel="stylesheet" href="../../termynal.css">
+        <!-- some custom styles for the page -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+        <style>
+            body {
+                padding: 0; margin: 0;
+                background: #1a1e24;
+                width: 100%;
+                min-height: 100vh;
+                display: -webkit-box; display: -ms-flexbox; display: flex;
+                -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+                -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
+                -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- the termynal container -->
+        <div id="termynal" data-termynal>
+            <span data-ty="input">sudo get Name</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Amin Jamal ( includeamin )</span>
+            <span data-ty></span>
+            <span data-ty="input">sudo get ContactInfo</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Email: aminjamal10@gmail.com</span>
+            <span data-ty>Github: https://github.com/includeamin</span>
+            <span data-ty>LinkedIn: https://www.linkedin.com/in/includeamin/</span>
+             <span data-ty="input">sudo get Languages</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Farsi  (Persian)</span>
+            <span data-ty>German (Deutsch)</span>
+            <span data-ty>English </span>
+            <span data-ty></span>
+            <span data-ty="input">sudo get About</span>
+            <span data-ty="input" data-ty-prompt=">>>">I'm a back-end developer and develope web services on scs or microservices architecture.</span>
+            <span data-ty="input" data-ty-prompt=">>>">I can program on Python and C# (.netcore) and C ++ and have basic knowledge in Java, Rust etc.</span>
+            <span data-ty="input" data-ty-prompt=">>>">At the moment I am Co-Founder and Senior Software Developer at Handmade LLC. Also, I have knowledge of DevOps and use Jenkins, JIRA, Git to CI / CD.</span>
+            <span data-ty="input" data-ty-prompt=">>>">To date, I have developed many projects that are being developed on Microservices architecture with Docker.</span>
+            <span data-ty="input" data-ty-prompt=">>>">I am also interested in IOT, deep learning, machine learning and image processing and have developed some projects in these areas</span>
+            <span data-ty>Bests</span>
+        </div>
+
+        <!-- include and initialise termynal.js -->
+        <script src="../../termynal.js" data-termynal-container="#termynal"></script>
+    </body>
+</html>
