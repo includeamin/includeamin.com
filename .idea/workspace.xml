@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cf02d61-0c96-4d2a-a7ed-99c731ee794a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NodePort.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/new_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/termynal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/termynal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/termynal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/termynal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/termynal.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/includeamin.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/includeamin.com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/new_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Static/new_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/termynal" beforeDir="false" afterPath="$PROJECT_DIR$/other/termynal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/other/termynal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/other/termynal/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/other/termynal/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/other/termynal/example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/other/termynal/example2.html" beforeDir="false" afterPath="$PROJECT_DIR$/other/termynal/example2.html" afterDir="false" />
