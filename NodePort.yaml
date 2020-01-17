@@ -7,5 +7,5 @@ spec:
     app: includeamincom
   ports:
     - port: 3000
-      nodePort: 32808
+      nodePort: 32700
   type: NodePort
