@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: includeamincom
-          image: includeamin/includeamincom:v1
+          image: includeamin/includeamincom:v2
           imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
