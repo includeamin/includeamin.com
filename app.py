@@ -1,30 +1,19 @@
-from flask import Flask, send_from_directory
-from Menu.WBC.app import WBC
-from Menu.Projects.information.projects import Projects
-from Menu.MainPage.MainPage import MainPage
-from Menu.ServiceStatus.ServiceStatus import ServiceStatus
-from Menu.Keyvan.KBooks import keyvan
-from flask_cors import CORS
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
+from fastapi.requests import Request
+from fastapi.templating import Jinja2Templates
 
-app = Flask(__name__)
-cors = CORS(app)
-
-app.register_blueprint(WBC)
-app.register_blueprint(Projects)
-app.register_blueprint(MainPage)
-app.register_blueprint(ServiceStatus)
-app.register_blueprint(keyvan)
+template = Jinja2Templates("templates")
+app = FastAPI()
 
 
-@app.route("/")
-def index():
-    return send_from_directory('./Static/', filename='new_index.html')
+@app.get("/")
+def index(request: Request):
+    return template.TemplateResponse('index.html', {'request': request})
 
 
-@app.route("/<file_name>")
+@app.get("/{file_name}")
 def get_files(file_name):
-    return send_from_directory('./Static/', filename=file_name)
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True)
+    if file_name == 'favicon.ico':
+        return FileResponse(f"./templates/{file_name}", status_code=200)
+    return FileResponse(f"./termynal/{file_name}", status_code=200)
