@@ -9,11 +9,21 @@ app = FastAPI()
 
 @app.get("/")
 def index(request: Request):
-    return template.TemplateResponse('index.html', {'request': request})
+    """
+    index route
+    :param request: request object
+    :return: rendered template
+    """
+    return template.TemplateResponse("index.html", {"request": request})
 
 
 @app.get("/{file_name}")
-def get_files(file_name):
-    if file_name == 'favicon.ico':
+def get_files(file_name: str):
+    """
+    download js and favicon
+    :param file_name:  name of requested file
+    :return: FastApi FileResponse
+    """
+    if file_name == "favicon.ico":
         return FileResponse(f"./templates/{file_name}", status_code=200)
     return FileResponse(f"./termynal/{file_name}", status_code=200)
