@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, __version__
 from fastapi.responses import FileResponse
 from fastapi.requests import Request
 from fastapi.templating import Jinja2Templates
